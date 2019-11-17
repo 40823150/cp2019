@@ -10,3 +10,6 @@
 	prune = false
 [rebase]
 	autoStash = false
+[user]
+	email = 40823110@gm.nfu.edu.tw
+	name = 40823110
