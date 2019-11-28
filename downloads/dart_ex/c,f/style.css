@@ -1,8 +1,15 @@
 body {
   color: white;
+
   font-size: 40px;
 }
 
 input, select, textarea {
+
 font-size: 100%;
 }
+
+//設定顏色
+//設定框的大小
+//設定 输入，选择，文本区域
+//設定字體大小
