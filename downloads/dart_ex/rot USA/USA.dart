@@ -19,7 +19,7 @@ void main() {
   querySelector("#stopROC").onClick.listen((e) => stopROC());
   querySelector("#rotROC").onClick.listen((e) => rotROC());
   // 每 10 ms 重新繪製轉動 incAngle 的 drawROC 國旗
-  timer = Timer.periodic(const Duration(milliseconds: 10), (t) => drawUSA(ctx));
+  timer = Timer.periodic(const Duration(milliseconds: 1), (t) => drawUSA(ctx));
   
 }
 
@@ -61,9 +61,9 @@ void drawUSA(ctx) {
   for (int i = 0; i < 9; i++) { 
   b-=10;
   if(i %2==0){
-  num angle = 120;
   num a=-20;
   for (int i = 0; i < 6; i++) {
+  num angle = 120;
   a+=20;
   for (int i = 0; i < 5; i++) {
   angle += 5 * Math.pi * 2 / 12;
