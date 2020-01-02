@@ -1,0 +1,4 @@
+name: Dart for temperature example1
+mode: dart
+files:
+ - name: main.dart
